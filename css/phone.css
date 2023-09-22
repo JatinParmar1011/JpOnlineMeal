@@ -1,0 +1,97 @@
+/* body{
+    background-color: red;
+} */
+
+/* ---------------------------------------------------------- */
+/* Navigation Bar */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 3px;
+}
+
+
+/* ---------------------------------------------------------- */
+/* Home Section */
+#home{
+    height: 490px;
+    padding: 3px 49px;
+}
+
+#home::before{
+    height: 500px;
+}
+
+#home p{
+    font-size: 15px;
+}
+
+/* ---------------------------------------------------------- */
+/* Service Section */
+#service{
+    flex-direction: column;
+}
+
+#service .box{
+    padding: 20px;
+    margin: 10px;
+}
+
+#service-container::before{
+    content: "";
+    position: absolute;
+    background: url("/img/bg.jpg") no-repeat center center/cover;
+    background: none;
+}
+
+/* ---------------------------------------------------------- */
+/* Client Section */
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 50px;
+    padding: 2px 0px;
+    height: auto;
+}
+
+/* ---------------------------------------------------------- */
+/* Contact Section */
+#contact form{
+    width: 70%;
+}
+
+#contact label{
+    font-size: 1.2rem;
+}
+
+/* ---------------------------------------------------------- */
+/* Footer Section */
+footer span{
+    display: block;
+}
+
+/* ---------------------------------------------------------- */
+/* Utility Classes */
+.h-primary{
+    font-size: 2.2rem;
+}
+
+.h-primary1{
+    font-size: 1.9rem;
+    
+}
+
+.h-secondary{
+    font-size: 1.2rem;
+}
+
+.btn{
+    font-size: 15px;
+    padding: 3px 12px;
+}
